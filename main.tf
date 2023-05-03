@@ -132,7 +132,7 @@ resource "azurerm_linux_virtual_machine" "catapp" {
     disk_size_gb         = "60"
 
   }
-
+  # Added tag to vm.
   tags = {
     "Department" = "devops"
   }
